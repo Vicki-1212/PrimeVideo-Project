@@ -1,0 +1,39 @@
+.thumbnail {
+  width: 254px;
+  height: 150px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+.popup-content {
+  background-color: #ffffff;
+  width: 750px;
+  height: 500px;
+  border-radius: 15px;
+}
+
+.modal-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 100%;
+}
+
+.close-button {
+  align-self: end;
+  background-color: transparent;
+  color: #231f20;
+  cursor: pointer;
+  outline: none;
+  width: 35px;
+  height: 35px;
+  margin: 10px;
+  border: none;
+}
+
+.movie-player-container {
+  width: 90%;
+  height: 200px;
+  margin: 20px;
+}
